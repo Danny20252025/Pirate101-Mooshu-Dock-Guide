@@ -264,7 +264,7 @@ body {
 .image-text-row {
   display: flex;
   align-items: center;       /* Vertically center image and text */
-  gap: 15px;                 /* Space between image and text */
+  gap: 5px;                 /* Space between image and text */
 }
 
 .image-text-row img {
