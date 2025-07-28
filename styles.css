@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/mooshuhome.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.dock-layout {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.dock-layout img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+#searchBar {
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.skyway-section {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+/* Main content (cards) takes up ~75% of width */
+.main-column {
+  flex: 3;
+}
+
+/* Sidebar (right column) takes up ~25% of width */
+.side-column {
+  width: 25%;
+  padding: 10px;
+  background-color: rgba(255, 255, 254, 0.7);
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+}
+
+/* Optional styling for sidebar content */
+.side-column h3 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.side-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.side-column li {
+  margin-bottom: 8px;
+}
+
+.skyway-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.skyway-card {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.skyway-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  padding: 35px 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 20px 0;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.skyway-card:hover {
+  transform: scale(1.02);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.skyway-card img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.card-text h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #ffcc00;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.header-strip {
+  position: sticky;
+  top: 0;
+  background-image: url('images/titlebackground.jpg'); /* Replace with your image path */
+  background-size: cover;       /* Make the image cover the full area */
+  background-position: center;  /* Center the image */
+  background-repeat: no-repeat; /* Don't repeat the image */
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  z-index: 1000;
+  border-bottom: 2px solid #444; /* optional separator */
+}
+
+.header-strip h1 {
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+#searchBar {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.page-wrapper {
+  height:80vh;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Main content area */
+.main-column1 {
+  flex: 3;
+  margin-right: 20px; /* space between main and sidebar */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar area */
+.side-column1 {
+  flex: 1;
+  background-color: rgba(240, 240, 240, 0.8);
+  border-left: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.side-column1 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Make section headers stand out and be underlined */
+.section-header {
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.section-header1 {
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: rgb(180, 8, 8);
+}
+
+.section-header2 {
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: rgb(117, 1, 106);
+}
+
+.dock-layout1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+/* Style for images */
+.dock-layout1 img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Style for images */
+.dock-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  display: block;
+  border-radius: 10px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* optional spacing from edges */
+}
+
+.small-img {
+  width: 150px;
+  height: auto; /* maintain aspect ratio */
+}
+
+.small-img1 {
+  width: 200px;
+  height: auto; /* maintain aspect ratio */
+}
+
+.rounded-img {
+  border-radius: 12px; /* Adjust this value for more/less rounding */
+}
+
+.image-text-row {
+  display: flex;
+  align-items: center;       /* Vertically center image and text */
+  gap: 15px;                 /* Space between image and text */
+}
+
+.image-text-row img {
+  width: 50px;               /* Set image size */
+  height: auto;
+  border-radius: 6px;        /* Optional: rounded edges */
+}
+
+.image-pair {
+  display: flex;
+  gap: 20px; /* space between images */
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-pair img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+.item-tabs {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.tab-headers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  background: #333;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #555;
+}
+
+.tab-content-container {
+  min-height: 250px; /* Keeps height fixed even if switching to shorter content */
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.image-pair1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-pair1 img {
+  width: 135px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.image-pair2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-pair2 img {
+  width: 135px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: contain;
+}
