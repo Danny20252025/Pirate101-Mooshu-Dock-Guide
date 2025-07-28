@@ -268,7 +268,7 @@ body {
 }
 
 .image-text-row img {
-  width: 50px;               /* Set image size */
+  width: 30px;               /* Set image size */
   height: auto;
   border-radius: 6px;        /* Optional: rounded edges */
 }
