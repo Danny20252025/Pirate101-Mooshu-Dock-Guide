@@ -358,3 +358,24 @@ body {
   border-radius: 6px;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  .page-wrapper,
+  .skyway-section {
+    flex-direction: column;
+  }
+
+  .main-column,
+  .main-column1,
+  .side-column,
+  .side-column1 {
+    width: 100%;
+    margin-right: 0; /* remove side spacing when stacked */
+    margin-bottom: 20px; /* space between stacked sections */
+  }
+
+  .side-column,
+  .side-column1 {
+    border-left: none;
+  }
+}
