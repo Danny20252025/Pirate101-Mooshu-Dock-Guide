@@ -391,7 +391,8 @@ body {
 
 @media (max-width: 768px) {
   .main-column1,
-  .side-column {
+  .side-column,
+  .side-column1 {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box; /* ensures padding doesn't cause overflow */
