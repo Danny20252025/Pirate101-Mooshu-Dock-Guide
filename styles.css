@@ -380,14 +380,16 @@ body {
   .side-column1 {
     border-left: none;
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
   .dock-layout > *,
   .dock-layout1 > * {
     width: 100%;
   }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
   .main-column1,
   .side-column {
     width: 100%;
@@ -396,5 +398,4 @@ body {
     margin-right: 0; /* remove gap between main and sidebar */
     padding: 10px; /* slightly smaller padding for mobile */
   }
-}
 }
