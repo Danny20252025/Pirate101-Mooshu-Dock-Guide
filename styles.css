@@ -406,3 +406,9 @@ body {
     padding: 0px;
   }
 }
+
+@media (max-width: 768px) {
+  .dock-layout img {
+    width: 100%;
+  }
+}
