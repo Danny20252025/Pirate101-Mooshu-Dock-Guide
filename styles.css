@@ -386,4 +386,15 @@ body {
   .dock-layout1 > * {
     width: 100%;
   }
+
+  @media (max-width: 768px) {
+  .main-column1,
+  .side-column {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* ensures padding doesn't cause overflow */
+    margin-right: 0; /* remove gap between main and sidebar */
+    padding: 10px; /* slightly smaller padding for mobile */
+  }
+}
 }
