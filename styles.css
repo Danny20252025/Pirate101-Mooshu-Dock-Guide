@@ -400,3 +400,9 @@ body {
     padding: 10px; /* slightly smaller padding for mobile */
   }
 }
+
+@media (max-width: 768px) {
+  .icon-row {
+    padding: 0px;
+  }
+}
