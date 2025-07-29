@@ -361,7 +361,9 @@ body {
 
 @media (max-width: 768px) {
   .page-wrapper,
-  .skyway-section {
+  .skyway-section,
+  .dock-layout,
+  .dock-layout1 {
     flex-direction: column;
   }
 
@@ -377,5 +379,11 @@ body {
   .side-column,
   .side-column1 {
     border-left: none;
+  }
+
+  @media (max-width: 768px) {
+  .dock-layout > *,
+  .dock-layout1 > * {
+    width: 100%;
   }
 }
